@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <button class="header__burger" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+                <a href="/" class="header__logo">Flip</a>
+                <nav class="header__categories categories">
+                    <ul class="categories__menu" id="categories">
+                        <li class="categories__item">
+                            <a href="#category" class="categories__link" data-action="long">Лонгборды</a>
+                        </li>
+                        <li class="categories__item">
+                            <a href="#category" class="categories__link" data-action="skate">Скейтборды</a>
+                        </li>
+                        <li class="categories__item">
+                            <a href="#category" class="categories__link" data-action="penny">Пенниборды</a>
+                        </li>
+                        <li class="categories__item">
+                            <a href="#category" class="categories__link" data-action="finger">Фингерборды</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__btn" data-action="theme">
+                    <img src="images/theme.svg" alt="theme">
+                </button>
+            </div>
+        </header>
+        <main class="main" id="up">
+            <section class="main__top top">
+                <div class="top__container _container">
+                    <h1 class="top__title">Поймай равновесие</h1>
+                </div>
+            </section>
+            <section class="main__cards cards" id="category">
+                <div class="cards__container _container">
+                    <h2 class="cards__title">Лонгборды</h2>
+                    <ul class="cards__items">
+
+                    </ul>
+                </div>
+            </section>
+            <section class="main__list list">
+                <div class="list__container _container">
+                    <ul class="list__categories" id="categories">
+                        <li class="list__category">
+                            <a href="#category" data-action="long">Лонгборды</a>
+                        </li>
+                        <li class="list__category">
+                            <a href="#category" data-action="skate">Скейтборды</a>
+                        </li>
+                        <li class="list__category">
+                            <a href="#category" data-action="penny">Пенниборды</a>
+                        </li>
+                        <li class="list__category">
+                            <a href="#category" data-action="finger">Фингерборды</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container _container">
+                <p class="footer__logo">Flip</p>
+            </div>
+        </footer>
+        <div class="pop-up__overlay">
+            <div class="pop-up__body">
+                <form class="pop-up__prod prod" action="#">
+                    <div class="prod__amount counter-wrapper">
+                        <div class="prod__amount-control" data-action="minus">-</div>
+                        <div class="prod__amount-current" data-counter>1</div>
+                        <div class="prod__amount-control" data-action="plus">+</div>
+                    </div>
+                    <p class="prod__choose">
+                        Выберите цвет колес
+                    </p>
+                    <div class="prod__radio-inner">
+                        <label class="prod__color">
+                            <input class="prod__radio" type="radio" name="colors" value="red" checked>
+                            <span class="prod__custom-radio"></span>
+                            Оригинальные
+                        </label>
+                        <label class="prod__color">
+                            <input class="prod__radio" type="radio" name="colors" value="green">
+                            <span class="prod__custom-radio"></span>
+                            Прозрачные
+                        </label>
+                        <label class="prod__color">
+                            <input class="prod__radio" type="radio" name="colors" value="blue">
+                            <span class="prod__custom-radio"></span>
+                            Кастомные
+                        </label>
+                    </div>
+                    <textarea class="prod__comment" name="comment" rows="5" maxlength="2000"
+                        placeholder="Ваш комментарий"></textarea>
+                    <button class="prod__buy" type="submit">Купить</button>
+                </form>
+                <div class="pop-up__close" data-close>&#10006</div>
+            </div>
+        </div>
+        <a href="#up" class="page__up">
+            <img class="imge" src="images/arrow-dark.svg" alt="arrow-up">
+        </a>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

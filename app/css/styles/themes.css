@@ -1,0 +1,27 @@
+.theme-light {
+    --main-bg: #fff;
+    --global-color: #725bb9;
+    --logo-color: #5732c4;
+    --header-bg: #8ef3f6;
+    --header-border: rgb(106, 222, 232);
+    --card-bg: #f3f4f6;
+    --card-color: #5f45ae;
+    --card-date-color: #a695da;
+    --card-btn-color: #5732c4;
+    --card-shadow: thistle;
+    --footer-bg: #8ef3f6;
+}
+
+.theme-dark {
+    --main-bg: #5a71b0;
+    --global-color: #9af5f9;
+    --logo-color: #6dfaff;
+    --header-bg: #5732c4;
+    --header-border: rgb(106, 222, 232);
+    --card-bg: #c9d2e4;
+    --card-color: #725bb9;
+    --card-date-color: #886dd8;
+    --card-btn-color: mediumslateblue;
+    --card-shadow: none;
+    --footer-bg: #40219f;
+}
