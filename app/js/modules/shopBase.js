@@ -1,3 +1,5 @@
+// База данных магазина
+
 const shopBase = {
     longboards: [
         {

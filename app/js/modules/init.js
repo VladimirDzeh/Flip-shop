@@ -1,3 +1,5 @@
+// Инициализация нашей странички, где на неё идет отрисовка карточек с товарами
+
 const renderCards = (parent, section) => {
     document.querySelector(parent).innerHTML = '';
     section.forEach(item => {

@@ -1,3 +1,5 @@
+// С помощью этого функционала реализован счетчик товаров на страничке
+
 const counterProd = (minusBtn, plusBtn, amount) => {
     const btnMinus = document.querySelector(minusBtn);
     const btnPlus = document.querySelector(plusBtn);
@@ -13,6 +15,8 @@ const counterProd = (minusBtn, plusBtn, amount) => {
         counter.innerText = ++counter.innerText;
     });
 }
+
+// Функционал по показу благодарственного модального окна
 
 const showThanksModal = (popupOverlay, popupBody, popupBodyVisible, form) => {
     const prevModalDialog = document.querySelector(popupOverlay);

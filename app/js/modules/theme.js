@@ -1,3 +1,5 @@
+// Функционал по смене темы на странице
+
 const initialState = themeName => {
     localStorage.setItem('theme', themeName);
     document.documentElement.className = themeName;

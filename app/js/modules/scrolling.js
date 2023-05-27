@@ -1,3 +1,5 @@
+// Реализован плавный скролл к началу странички или к категориям товаров
+
 const scrolling = (upSelector, smoothScrollElements, arrow) => {
     const upElem = document.querySelector(upSelector);
 

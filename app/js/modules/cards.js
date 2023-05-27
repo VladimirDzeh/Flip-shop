@@ -1,3 +1,6 @@
+// Это класс с помощью которого создаются карточки на сайт + есть метод,
+// с помощью которого дата добавления на сайт превращается в более читаемый вид.
+
 class Cards {
     constructor(src, alt, prodName, dateAdded, parentSelector) {
         this.src = src;

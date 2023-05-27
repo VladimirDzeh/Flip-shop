@@ -1,3 +1,5 @@
+// Функционал по показу и закрытию формы для покупки товара
+
 const openModal = (classOverlay, classBodyVisible, classOverlayVisible) => {
     const modal = document.querySelector(classOverlay);
 
